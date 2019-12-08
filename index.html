@@ -9,31 +9,61 @@
 
 <body>
     <header>
-      <div id="navLeft">
-        <img src="googlelogo_color_272x92dp.png" alt="Google logo">
-      </div>
-    
-      <ul id="navRight">
-        <li><a href=""><img src="apps.png" id="apps" style="width:25px;height:25px; margin:-5px"></a></li>
-        <li><input type="submit" value="Sign In" id="signIn"></li>
-      </ul>
+      <div class="flex-container">
+        <div><img src="googlelogo_color_272x92dp.png" alt="Google logo" id="logo"></div>
+        
+        <div>
+          <form name="Search" id="Search">
+            <input type="text">
+          </form>
+        </div>
       
-      <div class="form" style="margin-top:10px" >
-        <form name="Search" id="Search">
-          <input type="text">
-        </form>
+    
+        <ul id="nav-account">
+          <li><a href=""><img src="apps.png" id="apps" style="width:25px;height:25px; margin:-5px"></a></li>
+          <li><input type="submit" value="Sign In" id="signIn"></li>
+        </ul>
       </div>
+      
+      <nav>
+        <ul class="nav-tabs">
+          <li>
+            <a>All</a>
+          </li>
+          <li>
+            <a>News</a>
+          </li>
+          <li>
+            <a>Videos</a>
+          </li>
+          <li>
+            <a>Maps</a>
+          </li>
+          <li>
+            <a>Shopping</a>
+          </li>
+          <li>
+            <a>More</a>
+          </li>
+        </ul>
+
+        <ul class="nav-tabs">
+          <li>
+            <a>Settings</a>
+          </li>
+          <li>
+            <a>Tools</a>
+          </li>
+        </ul>
+        
+      </nav>
     </header>
     
     <footer>
-
-      <div>
         <a href="https://policies.google.com/privacy?fg=1">Privacy</a>
         <a href="https://policies.google.com/terms?fg=1">Terms</a>
-        <a href="https://www.google.com/preferences?hl=en">Settings</a>
-      </div>
-      
-      </footer>
+        <a href="https://www.google.com/preferences?hl=en">Settings</a>      
+    </footer>
 
   </body>
 
